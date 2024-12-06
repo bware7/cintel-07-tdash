@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+  }
+  
+  .bslib-value-box {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bslib-value-box:hover {
+    transform: scale(1.02);
+  }
+  
+  .bslib-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .bslib-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .sidebar {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .sidebar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .sidebar a:hover {
+    color: var(--secondary-color);
+  }
+  
+  .value-box-primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .value-box-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .value-box-accent {
+    background-color: var(--accent-color);
+    color: white;
+  }
+
+  .resource-links {
+    margin-top: 1rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.nav-link svg {
+    fill: currentColor;
+}
